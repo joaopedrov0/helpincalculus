@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fórmulas</title>
+
+        <!--ESTILOS-->
+        <link rel="stylesheet" href="materias.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="standart.css">
+        <link rel="stylesheet" href="menuNav.css">
+        <link rel="stylesheet" href="aviso.css">
+        <!--MATEMÁTICA-->
+        <script src="math-pitagoras.js"></script>
+        <script src="math-bhaskara.js"></script>
+        <script src="math-funcaoquadratica.js"></script>
+        <script src="regradetres.js"></script>
+
+        <!--FÍSICA-->
+    </head>
+    <body>
+        <!--MODELO-->
+
+        <!--
+            <section class="MATÉRIA">
+                <div class="div_data">
+                    <h3 id="CONTEUDO"></h3>
+                    <ul>
+                        <li>
+                            
+                        </li>
+                        <li>
+                            
+                        </li>
+                        <li>
+                            
+                        </li>
+                        <li>
+                            <input class="MATÉRIA btn" type="button" value="Calcular" onclick="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="div_explain">
+                    <div class="resolucao resolucaoCONTEUDO">
+                        <p></p>
+                    </div>
+                    <div class="resultado resultadoCONTEUDO">
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+        -->
+
+        <header><h1>Cálculos</h1></header>
+        <nav>
+            <div class="menu math">
+                <h2>Matemática</h2>
+                <ul class="list math_List">
+                    <li><a class="link math_Link" href="#Pitágoras">Pitágoras</a></li>
+                    <li><a class="link math_Link" href="#Bhaskara">Bhaskara</a></li>
+                    <li><a class="link math_Link" href="#funcaoQuadratica">Função Quadrática</a></li>
+                    <li><a class="link math_Link" href="#regraDeTres">Função Quadrática</a></li>
+                </ul>
+            </div>
+            <div class="menu fisica">
+                <h2>Física</h2>
+                <ul class="list fisica_List">
+                    <li><a class="link fisica_Link" href="">Em breve</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="math">
+            <div class="div_data">
+                <h3 id="Pitágoras">Pitágoras</h3>
+                <p class="aviso">Insira os valores que você tem, deixe em branco o que quer descobrir.</p>
+                <ul>
+                    <li>
+                        <label for="cateto1">Hipotenusa:</label>
+                        <input type="number" name="hipotenusa" id="hipotenusaPitagoras">
+                    </li>
+                    <li>
+                        <label for="cateto1">Cateto B:</label>
+                        <input type="number" name="catetoB" id="catetoB">
+                    </li>
+                    <li>
+                        <label for="cateto1">Cateto C:</label>
+                        <input type="number" name="catetoC" id="catetoC">
+                    </li>
+                    <li>
+                        <input class="math btn" type="button" value="Calcular" onclick="pitagoras()">
+                    </li>
+                </ul>
+            </div>
+            <div class="div_explain">
+                <div class="resolucao resolucaoPitagoras">
+                    <p></p>
+                </div>
+                <div class="resultado resultadoPitagoras">
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section class="math">
+            <div class="div_data">
+                <h3 id="Bhaskara">Bhaskara</h3>
+                <ul>
+                    <li>
+                        <label for="a">Insira o valor de a:</label>
+                        <input type="number" name="a" id="a">
+                    </li>
+                    <li>
+                        <label for="b">Insira o valor de b:</label>
+                        <input type="number" name="b" id="b">
+                    </li>
+                    <li>
+                        <label for="c">Insira o valor de c:</label>
+                        <input type="number" name="c" id="c">
+                    </li>
+                    <li>
+                        <input class="math btn" type="button" value="Calcular" onclick="bhaskara()">
+                    </li>
+                </ul>
+            </div>
+            <div class="div_explain">
+                <div class="resolucao resolucaoBhaskara">
+                    <p></p>
+                </div>
+                <div class="resultado resultadoBhaskara">
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section class="math">
+            <div class="div_data">
+                <h3 id="funcaoQuadratica">Função Quadrática</h3>
+                <ul>
+                    <li>
+                        <label for="aFQ">Insira o valor de a:</label>
+                        <input type="number" name="aFQ" id="aFQ">
+                    </li>
+                    <li>
+                        <label for="bFQ">Insira o valor de b:</label>
+                        <input type="number" name="bFQ" id="bFQ">
+                    </li>
+                    <li>
+                        <label for="cFQ">Insira o valor de c:</label>
+                        <input type="number" name="cFQ" id="cFQ">
+                    </li>
+                    <li>
+                        <input class="math btn" type="button" value="Calcular" onclick="funcaoquadratica()">
+                    </li>
+                </ul>
+            </div>
+            <div class="div_explain">
+                <div class="resolucao resolucaoRaiz">
+                    <p></p>
+                </div>
+                <div class="resolucao resolucaoVertice">
+                    <p></p>
+                </div>
+                <div class="resultado resultadoRaiz">
+                    <p></p>
+                </div>
+                <div class="resultado resultadoVertice">
+                    <p></p>
+                </div>
+                <div class="resultado analiseParabola">
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section class="math">
+            <div class="div_data">
+                <h3 id="Regra de Três">Regra de Três</h3>
+                <ul>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        <input class="math btn" type="button" value="Calcular" onclick="regradetres()">
+                    </li>
+                </ul>
+            </div>
+            <div class="div_explain">
+                <div class="resolucao resolucaoRegraDeTres">
+                    <p></p>
+                </div>
+                <div class="resultado resultadoRegraDeTres">
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <span>Encontrou algum problema? Tem alguma sugestão? Entre em contato! Email de contato: <a href="mailto:mastergamerjp2018@gmail.com?">mastergamerjp2018@gmail.com</a> </span>
+        </footer>
+    </body>
+</html>

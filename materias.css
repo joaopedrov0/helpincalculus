@@ -1,0 +1,67 @@
+/*CARTÕES*/
+
+h3{
+    font-size: 24px;
+    border-bottom: solid 3px white;
+    padding-bottom: 10px;
+}
+
+input{
+    background-color: inherit;
+    border-width: 0 0 1px 0;
+    border-color: white;
+
+    color: white;
+}
+
+.div_explain{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(88, 88, 88, 0.329);
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    width: 90%;
+    margin: 5px;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 5px 5px 30px rgba(70, 70, 70, 0.637) /*rgba(80, 80, 80, 0.336)*/;
+}
+
+.resultado{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resolucao{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    color: white;
+    border: white solid 1px;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+}
+
+.btn:hover{
+    opacity: 75%;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+section p{
+    line-height: 15px;
+}
