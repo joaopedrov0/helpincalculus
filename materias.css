@@ -62,6 +62,6 @@ section{
     transition: all 0.2s ease;
 }
 
-section p{
+nav section p{
     line-height: 15px;
 }

@@ -20,6 +20,7 @@
         <script src="regradetres.js"></script>
 
         <!--FÍSICA-->
+        <script src="fisica-trabalho-forca-constante.js"></script>
     </head>
     <body>
         <!--MODELO-->
@@ -27,8 +28,8 @@
         <!--
             <section class="MATÉRIA">
                 <div class="div_data">
-                    <h3 id="CONTEUDO"></h3>
-                    <ul>
+                    <h3></h3>
+                    <ul id="CONTEUDO">
                         <li>
                             
                         </li>
@@ -62,21 +63,21 @@
                     <li><a class="link math_Link" href="#Pitágoras">Pitágoras</a></li>
                     <li><a class="link math_Link" href="#Bhaskara">Bhaskara</a></li>
                     <li><a class="link math_Link" href="#funcaoQuadratica">Função Quadrática</a></li>
-                    <li><a class="link math_Link" href="#regraDeTres">Função Quadrática</a></li>
+                    <!--<li><a class="link math_Link" href="#regraDeTres">Função Quadrática</a></li>-->
                 </ul>
             </div>
             <div class="menu fisica">
                 <h2>Física</h2>
                 <ul class="list fisica_List">
-                    <li><a class="link fisica_Link" href="">Em breve</a></li>
+                    <li><a class="link fisica_Link" href="#trabalho-de-uma-forca-constante">Trabalho de uma força constante</a></li>
                 </ul>
             </div>
         </nav>
         <section class="math">
             <div class="div_data">
-                <h3 id="Pitágoras">Pitágoras</h3>
+                <h3>Pitágoras</h3>
                 <p class="aviso">Insira os valores que você tem, deixe em branco o que quer descobrir.</p>
-                <ul>
+                <ul id="Pitágoras">
                     <li>
                         <label for="cateto1">Hipotenusa:</label>
                         <input type="number" name="hipotenusa" id="hipotenusaPitagoras">
@@ -105,8 +106,8 @@
         </section>
         <section class="math">
             <div class="div_data">
-                <h3 id="Bhaskara">Bhaskara</h3>
-                <ul>
+                <h3>Bhaskara</h3>
+                <ul id="Bhaskara">
                     <li>
                         <label for="a">Insira o valor de a:</label>
                         <input type="number" name="a" id="a">
@@ -135,8 +136,8 @@
         </section>
         <section class="math">
             <div class="div_data">
-                <h3 id="funcaoQuadratica">Função Quadrática</h3>
-                <ul>
+                <h3>Função Quadrática</h3>
+                <ul id="funcaoQuadratica">
                     <li>
                         <label for="aFQ">Insira o valor de a:</label>
                         <input type="number" name="aFQ" id="aFQ">
@@ -172,6 +173,7 @@
                 </div>
             </div>
         </section>
+        <!--
         <section class="math">
             <div class="div_data">
                 <h3 id="Regra de Três">Regra de Três</h3>
@@ -195,6 +197,42 @@
                     <p></p>
                 </div>
                 <div class="resultado resultadoRegraDeTres">
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        -->
+        <section class="fisica">
+            <div class="div_data">
+                <h3>Trabalho de uma força constante</h3>
+                <h4>Fórmula: τ = F . Δr . cos α</h4>
+                <ul id="trabalho-de-uma-forca-constante">
+                    <li>
+                        <label for="newton">Insira o valor da força:</label>
+                        <input type="number" name="newton" id="newton">
+                    </li>
+                    <li>
+                        <label for="deltR">Insira o valor do deslocamento (∆r):</label>
+                        <input type="number" name="deltR" id="deltR">
+                    </li>
+                    <li>
+                        <label for="cosA">Insira o valor do cosseno do ângulo (cos α):</label>
+                        <input type="number" name="cosA" id="cosA">
+                    </li>
+                    <li style="display: inherit;">
+                        <label for="joules">Insira o valor do trabalho:</label>
+                        <input type="number" name="joules" id="joules">
+                    </li>
+                    <li>
+                        <input class="fisica btn" type="button" value="Calcular" onclick="trabalhoForcaConstante()">
+                    </li>
+                </ul>
+            </div>
+            <div class="div_explain">
+                <div class="resolucao resolucaoTrabalhoForcaConstante">
+                    <p></p>
+                </div>
+                <div class="resultado resultadoTrabalhoForcaConstante">
                     <p></p>
                 </div>
             </div>
