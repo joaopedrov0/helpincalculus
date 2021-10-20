@@ -35,7 +35,7 @@ function trabalhoForcaConstante(){
             break
         case trabalho:
             res = newton * desloc * angulo
-            resolution.innerHTML = `Como você quer descobrir o valor do trabalho, vamos isolar ele na fórmula! <br> τ = F . Δr . cos α <br> τ = ${newton} . ${angulo} . ${trabalho}`
+            resolution.innerHTML = `Como você quer descobrir o valor do trabalho, vamos isolar ele na fórmula! <br> τ = F . Δr . cos α <br> τ = ${newton} . ${desloc} . ${angulo}`
             result.innerHTML = `Resultado: ${res}τ`
             break
     }
