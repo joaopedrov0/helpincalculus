@@ -22,6 +22,7 @@
         <!--FÍSICA-->
         <script src="fisica-trabalho-forca-constante.js"></script>
         <script src="fisica-energia-cinetica.js"></script>
+        <script src="fisica-forca-elastica.js"></script>
     </head>
     <body>
         <!--MODELO-->
@@ -265,6 +266,38 @@
                     <p></p>
                 </div>
                 <div class="resultado resultadoEnergiaCinetica">
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section class="fisica">
+            <div class="div_data">
+                <h3>Força elástica</h3>
+                <h4>Fórmula: Fel = K . X</h4>
+                <h5>Unidades de medida(respectivamente): J, N/m, m</h5>
+                <ul id="forca-elastica">
+                    <li>
+                        <label for="constante">Insira o valor da constante elástica da mola:</label>
+                        <input type="number" name="constante" id="constante">
+                    </li>
+                    <li>
+                        <label for="distancia">Insira o valor da deformação da mola:</label>
+                        <input type="number" name="distancia" id="distancia">
+                    </li>
+                    <li>
+                        <label for="forca">Insira o valor da força elástica:</label>
+                        <input type="number" name="forca" id="forca">
+                    </li>
+                    <li>
+                        <input class="fisica btn" type="button" value="Calcular" onclick="forcaElastica()">
+                    </li>
+                </ul>
+            </div>
+            <div class="div_explain">
+                <div class="resolucao resolucaoForcaElastica">
+                    <p></p>
+                </div>
+                <div class="resultado resultadoForcaElastica">
                     <p></p>
                 </div>
             </div>
