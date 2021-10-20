@@ -21,6 +21,7 @@
 
         <!--FÍSICA-->
         <script src="fisica-trabalho-forca-constante.js"></script>
+        <script src="fisica-energia-cinetica.js"></script>
     </head>
     <body>
         <!--MODELO-->
@@ -219,7 +220,7 @@
                         <label for="cosA">Insira o valor do cosseno do ângulo (cos α):</label>
                         <input type="number" name="cosA" id="cosA">
                     </li>
-                    <li style="display: inherit;">
+                    <li>
                         <label for="joules">Insira o valor do trabalho:</label>
                         <input type="number" name="joules" id="joules">
                     </li>
@@ -233,6 +234,37 @@
                     <p></p>
                 </div>
                 <div class="resultado resultadoTrabalhoForcaConstante">
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section class="fisica">
+            <div class="div_data">
+                <h3>Energia Cinética</h3>
+                <h4>Fórmula: Ec = mv²/2</h4>
+                <ul id="energia-cinetica">
+                    <li>
+                        <label for="velocidade">Insira o valor da velocidade:</label>
+                        <input type="number" name="velocidade" id="velocidade">
+                    </li>
+                    <li>
+                        <label for="massa">Insira o valor da massa:</label>
+                        <input type="number" name="massa" id="massa">
+                    </li>
+                    <li>
+                        <label for="energia">Insira o valor da energia cinética:</label>
+                        <input type="number" name="energia" id="energia">
+                    </li>
+                    <li>
+                        <input class="fisica btn" type="button" value="Calcular" onclick="energiaCinetica()">
+                    </li>
+                </ul>
+            </div>
+            <div class="div_explain">
+                <div class="resolucao resolucaoEnergiaCinetica">
+                    <p></p>
+                </div>
+                <div class="resultado resultadoEnergiaCinetica">
                     <p></p>
                 </div>
             </div>
