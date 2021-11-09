@@ -4,7 +4,7 @@ body{
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    background-color: rgb(230, 131, 1);
+    background-color: #212121 /*rgb(230, 131, 1)*/;
 
     color: white;
 }

@@ -1,0 +1,4 @@
+.manutencao{
+    pointer-events: none;
+    filter: blur(10px);
+}
