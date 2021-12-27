@@ -22,9 +22,6 @@ Para usar helpincalculus, clique [aqui](https://joaopedrov0.github.io/helpincalc
 
 No card da equação que você deseja usar, basta inserir todas as informações que você tem, o que quiser descobrir deixe em branco, e pressione o botão "Calcular"
 
-## 😄 Seja um dos contribuidores<br>
-
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 <!--
 ## 📝 Licença
 
