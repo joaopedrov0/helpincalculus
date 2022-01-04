@@ -8,7 +8,7 @@
 
 <img src="exemplo-image.png" alt="exemplo imagem">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> As matérias dos cards são separadas por cores. Basta inserir o que você tem, e deixar em branco o que não tem.
 
 ### Ajustes e melhorias
 
